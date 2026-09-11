@@ -6,7 +6,7 @@ import type { UpdateCustomerDto } from "../dto/customer/updateCustomerDto.js";
 
 import { NotFoundError } from "../errors/NotFoundError.js";
 
-export async function findAll(): Promise<Customer[]> {
+export async function findAll(): Promise<Customer[]> {  
   return repository.findAll();
 }
 
