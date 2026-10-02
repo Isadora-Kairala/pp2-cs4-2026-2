@@ -10,7 +10,10 @@
    "forceConsistentCasingInFileNames": true,
    "ignoreDeprecations": "6.0",
    "skipLibCheck": true,
-   "allowImportingTsExtensions": true
+   "allowImportingTsExtensions": true,
+    //"ignoreDeprecations": "6.0",
+   "rewriteRelativeImportExtensions": true,
+
  }
 }
 
